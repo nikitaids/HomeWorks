@@ -1,0 +1,61 @@
+.message {
+
+}
+
+.imageAndText {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.imageAndText::after {
+
+}
+
+.imageAndText img {
+    order: 2;
+    width: 70px;
+    margin-left: 10px;
+    height: 70px;
+    align-self: end;
+}
+
+.text {
+order:1;
+    background-color: #007bff; /* Синий фон для сообщения */
+    color: white; /* Белый цвет текста */
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 300px; /* Максимальная ширина блока */
+    margin-left: auto; /* Сместить блок вправо */
+}
+
+.text:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+
+    border-left: none;
+    border-bottom-color: #007bff
+}
+
+.name {
+    text-align: right;
+    font-weight: 700;
+}
+
+.messageText {
+    white-space: normal;
+}
+
+.time {
+    text-align: right;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}

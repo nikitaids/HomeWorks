@@ -1,0 +1,41 @@
+.App {
+
+}
+
+hr{
+    margin:30px
+}
+
+.showResult{
+    width: 100px;
+    margin: auto;
+    background-color: #dff1f5;
+    border-radius: 5px;
+}
+
+.showResult:hover{
+    cursor: pointer;
+    background-color: #a7e4f2;
+}
+
+.showResult img{
+    display: block;
+    margin: auto;
+}
+
+.hw {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1s ease, max-height 1s ease;
+}
+
+.visible{
+    opacity: 1;
+    max-height: 500px;
+    transition: opacity 1s ease, max-height 1s ease;
+}
+
+.hwTitle {
+
+}

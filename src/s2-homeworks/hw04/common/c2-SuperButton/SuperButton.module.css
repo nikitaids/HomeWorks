@@ -1,0 +1,61 @@
+.button {
+
+    padding: 10px;
+    border-radius: 5px;
+    color:white
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color:blue
+}
+
+
+
+.disabled {
+    opacity: 0.5;
+}
+
+.default {
+    background-color: #007bff;
+}
+
+
+
+.default:hover {
+}
+
+.red:hover {
+}
+
+.secondary:hover {
+}
+
+
+.default:active {
+}
+
+.secondary:active {
+}
+
+.red:active {
+}
+
+.button:disabled {
+}
+
+.myButton {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+    border-radius: 4px;
+}
+
+.myButton:hover {
+    background-color: #45a049;
+}

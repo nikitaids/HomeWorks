@@ -1,0 +1,57 @@
+.friendMessage {
+    text-align-last: start;
+}
+
+.friendImageAndText {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.friendImageAndText img {
+    order: 2;
+    width: 70px;
+    margin-left: 10px;
+    height: 70px;
+    align-self: end;
+}
+
+.friendText {
+    order:2;
+    background-color: #007bff; /* Синий фон для сообщения */
+    color: white; /* Белый цвет текста */
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 300px; /* Максимальная ширина блока */
+    margin-left: 10px; /* Сместить блок вправо */
+}
+
+.friendText:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right: none;
+    border-bottom-color: #007bff;
+}
+
+.friendName {
+    text-align: left;
+    font-weight: 700;
+}
+
+.friendMessageText {
+    white-space: normal;
+
+}
+
+.friendTime {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}

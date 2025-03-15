@@ -1,0 +1,20 @@
+.burgerMenuIcon {
+}
+
+.header {
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.header img:hover{
+    cursor: pointer;
+}
+
+.header h1 {
+    flex-grow: 1;
+    text-align: end;
+    margin-right: 10px;
+}
